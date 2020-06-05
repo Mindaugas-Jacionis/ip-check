@@ -1,0 +1,19 @@
+{
+  "name": "ip-check",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Mindaugas Jačionis",
+  "main": "index.js",
+  "scripts": {
+    "develop": "nodemon ./index.js",
+    "start": "node ./index.js",
+    "deploy": "git push heroku master"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
